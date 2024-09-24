@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TodoApi.Models.TodoItem, TodoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TodoApi.Models.TodoItem.TodoItemDTO, TodoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,20 +28,20 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "todoItem",
-        "Type": "TodoApi.Models.TodoItem",
+        "Name": "todoDTO",
+        "Type": "TodoApi.Models.TodoItem.TodoItemDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TodoApi.Models.TodoItem",
+        "Type": "TodoApi.Models.TodoItem.TodoItemsResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
-        "StatusCode": 200
+        "StatusCode": 201
       }
     ]
   },
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TodoApi.Models.TodoItem",
+        "Type": "TodoApi.Models.TodoItem.TodoItemDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -85,8 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "todoItem",
-        "Type": "TodoApi.Models.TodoItem",
+        "Name": "todoDTO",
+        "Type": "TodoApi.Models.TodoItem.TodoItemDTO",
         "IsRequired": true
       }
     ],
@@ -107,26 +107,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TodoApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TodoApi.WeatherForecast, TodoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

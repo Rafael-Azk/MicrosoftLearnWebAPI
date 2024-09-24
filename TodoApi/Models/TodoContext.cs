@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TodoApi.Models.TodoItem;
 //Db context para a aplicação de funcionalidades do Entity Framework.
 namespace TodoApi.Models;
 
@@ -8,6 +9,7 @@ public class TodoContext : DbContext
     {
 
     }
-    public DbSet<TodoItem> TodoItems { get; set; }
+    public DbSet<TodoItem.TodoItem> TodoItems { get; set; }
+
 }
 
