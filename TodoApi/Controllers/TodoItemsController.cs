@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
@@ -77,6 +78,8 @@ public class TodoItemsController : ControllerBase
 
         return NoContent();
     }
+
+
     // </snippet_Update>
 
     // POST: api/TodoItems
@@ -103,7 +106,7 @@ public class TodoItemsController : ControllerBase
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(
-            nameof(GetTodoItem),
+            nameof(PostTodoItem),
             new { id = todoItem.Id },
             ItemToDTO(todoItem));
     }

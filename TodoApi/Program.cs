@@ -12,6 +12,7 @@ builder.Services.AddDbContext<TodoContext>(opt =>// Add DbContext ao container d
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

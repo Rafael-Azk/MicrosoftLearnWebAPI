@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\html\\C#\\MicrosoftLearnWebAPI\\TodoApi\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\usuario\\html\\c#\\microsoftlearnwebapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\user\\desktop\\estudo\\microsoftlearnwebapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|solutionrelative:controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\usuario\\html\\c#\\microsoftlearnwebapi\\todoapi\\models\\todoitem\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|solutionrelative:models\\todoitem\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\user\\desktop\\estudo\\microsoftlearnwebapi\\todoapi\\jsonpatchsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|solutionrelative:jsonpatchsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\user\\desktop\\estudo\\microsoftlearnwebapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|c:\\users\\user\\desktop\\estudo\\microsoftlearnwebapi\\todoapi\\models\\todoitem\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1368ABD-EC2A-4956-AE31-E88DD16E22FE}|TodoApi.csproj|solutionrelative:models\\todoitem\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TodoItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\html\\C#\\MicrosoftLearnWebAPI\\TodoApi\\Models\\TodoItem\\TodoItemDTO.cs",
-              "RelativeDocumentMoniker": "Models\\TodoItem\\TodoItemDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\html\\C#\\MicrosoftLearnWebAPI\\TodoApi\\Models\\TodoItem\\TodoItemDTO.cs",
-              "RelativeToolTip": "Models\\TodoItem\\TodoItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Title": "JsonPatchSample.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\JsonPatchSample.cs",
+              "RelativeDocumentMoniker": "JsonPatchSample.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\JsonPatchSample.cs",
+              "RelativeToolTip": "JsonPatchSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:13:04.12Z",
+              "WhenOpened": "2024-09-25T04:14:32.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T03:54:20.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Models\\TodoItem\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Models\\TodoItem\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:08:29.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TodoItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\html\\C#\\MicrosoftLearnWebAPI\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Controllers\\TodoItemsController.cs",
               "RelativeDocumentMoniker": "Controllers\\TodoItemsController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\html\\C#\\MicrosoftLearnWebAPI\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Estudo\\MicrosoftLearnWebAPI\\TodoApi\\Controllers\\TodoItemsController.cs",
               "RelativeToolTip": "Controllers\\TodoItemsController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:00:25.159Z",
+              "WhenOpened": "2024-09-25T02:01:13.739Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

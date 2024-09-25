@@ -459,3 +459,7 @@ C:\Users\Usuario\html\C#\MicrosoftLearnWebAPI\TodoApi\obj\Debug\net8.0\refint\To
 C:\Users\Usuario\html\C#\MicrosoftLearnWebAPI\TodoApi\obj\Debug\net8.0\TodoApi.pdb
 C:\Users\Usuario\html\C#\MicrosoftLearnWebAPI\TodoApi\obj\Debug\net8.0\TodoApi.genruntimeconfig.cache
 C:\Users\Usuario\html\C#\MicrosoftLearnWebAPI\TodoApi\obj\Debug\net8.0\ref\TodoApi.dll
+C:\Users\User\Desktop\Estudo\MicrosoftLearnWebAPI\TodoApi\obj\Debug\net8.0\TodoApi.sourcelink.json
+C:\Users\User\Desktop\Estudo\MicrosoftLearnWebAPI\TodoApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Desktop\Estudo\MicrosoftLearnWebAPI\TodoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Desktop\Estudo\MicrosoftLearnWebAPI\TodoApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
